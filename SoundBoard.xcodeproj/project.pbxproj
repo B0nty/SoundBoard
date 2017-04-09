@@ -13,6 +13,7 @@
 		DE21E0371E9A4E500096FB56 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE21E0351E9A4E500096FB56 /* SoundBoard.xcdatamodeld */; };
 		DE21E0391E9A4E500096FB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE21E0381E9A4E500096FB56 /* Assets.xcassets */; };
 		DE21E03C1E9A4E500096FB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE21E03A1E9A4E500096FB56 /* LaunchScreen.storyboard */; };
+		DE21E0451E9A54D80096FB56 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE21E0441E9A54D80096FB56 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE21E0381E9A4E500096FB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE21E03B1E9A4E500096FB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE21E03D1E9A4E500096FB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE21E0441E9A54D80096FB56 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,8 @@
 		DE21E02D1E9A4E500096FB56 /* SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				DE21E0431E9A545B0096FB56 /* View */,
 				DE21E02E1E9A4E500096FB56 /* AppDelegate.swift */,
-				DE21E0301E9A4E500096FB56 /* ViewController.swift */,
 				DE21E0321E9A4E500096FB56 /* Main.storyboard */,
 				DE21E0381E9A4E500096FB56 /* Assets.xcassets */,
 				DE21E03A1E9A4E500096FB56 /* LaunchScreen.storyboard */,
@@ -65,6 +67,15 @@
 				DE21E0351E9A4E500096FB56 /* SoundBoard.xcdatamodeld */,
 			);
 			path = SoundBoard;
+			sourceTree = "<group>";
+		};
+		DE21E0431E9A545B0096FB56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE21E0301E9A4E500096FB56 /* ViewController.swift */,
+				DE21E0441E9A54D80096FB56 /* SoundViewController.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE21E0451E9A54D80096FB56 /* SoundViewController.swift in Sources */,
 				DE21E0371E9A4E500096FB56 /* SoundBoard.xcdatamodeld in Sources */,
 				DE21E0311E9A4E500096FB56 /* ViewController.swift in Sources */,
 				DE21E02F1E9A4E500096FB56 /* AppDelegate.swift in Sources */,
